@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *
  * @author Ryudou
  */
-public class City {
+public class City extends Space{
     String name;
     Token token;
     public City (String name, Token token) {
